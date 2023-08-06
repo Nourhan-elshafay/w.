@@ -1,0 +1,72 @@
+*{
+      transition: all .3s;
+      scroll-behavior: smooth;
+}
+
+/* navbar */
+
+header .navcreate{
+      background-color: white; 
+      position: fixed;
+      z-index: 9999999;     
+}
+header .navcreate .navbar{
+      width: 85%;
+      margin: auto;
+      background-color: #fff;
+}
+header .navcreate ul li a:hover{
+      color: #f15d51;
+}
+
+/* left */
+
+main #left img{
+      width: 100%;
+}
+main #left #bold p{
+      font-size: 55px;
+      font-weight: bolder;
+      padding-right: 10%;
+}
+main #left #text{
+      padding: 4%;
+}
+main #left #text p{
+      font-size: 18px;
+}
+main #left #text button{
+      background-color: #f15d51;
+      color: white;
+      border-radius: 0%; 
+}
+
+/* right */
+main #right{
+      color: white;
+      background-color: #000;
+}
+main #right h2{
+      color: hsl(35, 77%, 62%);
+}
+main #right h3:hover{
+      cursor: pointer;
+      color: hsl(35, 77%, 62%) ;
+}
+main #right hr{
+      border-width: 3px ;
+      border-color: white;
+      padding: 5% 0%;
+}
+
+/* footer */
+footer img{
+      width: 95%;
+}
+footer h2{
+      color: #a2a0a0;
+}
+footer h4:hover{
+      color: #f15d51;
+      cursor: pointer;
+}
