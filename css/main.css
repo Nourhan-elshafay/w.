@@ -11,8 +11,8 @@ header .navcreate{
       z-index: 9999999;     
 }
 header .navcreate .navbar{
-      width: 85%;
-      margin: auto;
+      width: 100%;
+      padding:1.5% 7% ;
       background-color: #fff;
 }
 header .navcreate ul li a:hover{
